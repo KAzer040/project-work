@@ -504,6 +504,7 @@ body {
 #registrationform h2 {
     text-align: center;
     color: #fff;
+    background-image: url('assets/bg-8.webp');
     font-size: 2rem;
     margin-bottom: 20px;
 }
