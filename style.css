@@ -492,14 +492,22 @@ body {
     box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
 } 
 
-/* Registrationform Form */
 #registration {
     width: 100%;
     margin: 20px auto;
     padding: 20px;
-    background-image: url(/assets/bg-8.webp);
+    background-image: url('assets/bg-8.webp');
     border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+#registrationform h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
 #registrationform {
     color: rgb(255, 255, 255);
     font-size: 1.2rem;
@@ -511,103 +519,41 @@ body {
     box-shadow: 0 0 10px rgba(120, 236, 203, 0.674);
 }
 
-#registrationform h2 {
-    text-align: center;
-    color: #fff;
-    font-size: 2rem;
-    margin-bottom: 20px;
+#registrationform label {
+    display: block;
+    margin-bottom: 5px;
 }
 
-#registrationform label{
-    color: #fff;
-    font-family: Arial, sans-serif;
-
-}
-
-#registrationform span {
-    color: #ffffff;
-    font-family: Arial, sans-serif;
-
-}
-
-#registrationform input[type="text"] {
+#registrationform input,
+#registrationform select,
+#registrationform textarea {
     width: 100%;
     padding: 10px;
-    color: black;
-    font-family: Arial, sans-serif;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-
-}
-
-#registrationform input[type="email"] {
-    width: 100%;
-    padding: 10px;
-    color: black;
-    font-family: Arial, sans-serif;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-#registrationform input[type="date"] {
-    width: 100%;
-    padding: 10px;
-    color: black;
-    font-family: Arial, sans-serif;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-
-}
-
-#registrationform select {
-    width: 100%;
-    padding: 10px;
-    color: black;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
 #registrationform textarea {
-    width: 100%;
-    padding: 10px;
-
-    color: black;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    height: 100px;
 }
 
 #registrationform button {
-    width: 100%;
-    padding: 10px;
+    padding: 10px 20px;
     background-color: #2d87ed;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
-    cursor: pointer;
-    margin-top: 20px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
+    color: white;
+    border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 #registrationform button:hover {
     background-color: #71e4ee;
 }
 
-#registrationform input[type="radio"] {
-    margin-right: 5px;
-}
-#registration .error {
+.error {
     color: red;
-    font-size: 14px;
+    font-size: 0.9rem;
     display: block;
 }
 
